@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "A Mocha project",
+  "author": "yunl.zheng <yunl.zheng@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}
