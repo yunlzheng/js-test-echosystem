@@ -1,63 +1,63 @@
-10:52:41.353 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-10:52:41.354 INFO - Launching a standalone Selenium Server
-2017-08-02 10:52:41.376:INFO::main: Logging initialized @256ms to org.seleniumhq.jetty9.util.log.StdErrLog
-10:52:41.438 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+14:17:35.143 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+14:17:35.143 INFO - Launching a standalone Selenium Server
+2017-08-02 14:17:35.167:INFO::main: Logging initialized @300ms to org.seleniumhq.jetty9.util.log.StdErrLog
+14:17:35.245 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-10:52:41.439 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+14:17:35.245 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-10:52:41.439 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-10:52:41.439 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+14:17:35.246 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:17:35.246 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-10:52:41.439 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-10:52:41.440 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-08-02 10:52:41.486:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-08-02 10:52:41.526:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@4c70fda8{/,null,AVAILABLE}
-2017-08-02 10:52:41.564:INFO:osjs.AbstractConnector:main: Started ServerConnector@204f30ec{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-08-02 10:52:41.565:INFO:osjs.Server:main: Started @445ms
-10:52:41.565 INFO - Selenium Server is up and running
-10:52:41.808 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-10:52:41.834 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
-10:52:41.853 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
-1501642362129	geckodriver	INFO	geckodriver 0.18.0
-1501642362135	geckodriver	INFO	Listening on 127.0.0.1:16774
-1501642362285	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
-1501642362969	Marionette	INFO	Listening on port 64400
-1501642364331	Marionette	INFO	startBrowser 33ecddbb-859e-e947-adca-bff44e72c53f
-10:52:44.571 INFO - Detected dialect: W3C
-10:52:44.603 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
-10:52:44.622 INFO - Executing: [get: http://www.google.com])
-10:52:50.486 INFO - Done: [get: http://www.google.com]
-10:52:50.500 INFO - Executing: [find elements: By.cssSelector: body])
-10:52:50.535 INFO - Done: [find elements: By.cssSelector: body]
-10:52:50.544 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: body]])
-10:52:50.592 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: body]]
-10:52:50.598 INFO - Executing: [get title])
-10:52:50.607 INFO - Done: [get title]
-10:52:50.616 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-10:52:50.625 INFO - Done: [find element: By.cssSelector: input[type=text]]
-10:52:50.645 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: input[type=text]]])
-10:52:50.683 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: input[type=text]]]
-10:52:50.689 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-10:52:50.699 INFO - Done: [find element: By.cssSelector: input[type=text]]
-10:52:50.706 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: input[type=text]], [r, e, m, b, r, a, n, d, t,  , v, a, n,  , r, i, j, n]])
-10:52:50.789 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: input[type=text]], [r, e, m, b, r, a, n, d, t,  , v, a, n,  , r, i, j, n]]
-10:52:50.801 INFO - Executing: [find elements: By.cssSelector: input[name=btnK]])
-10:52:50.811 INFO - Done: [find elements: By.cssSelector: input[name=btnK]]
-10:52:50.815 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: input[name=btnK]]])
-10:52:50.850 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: input[name=btnK]]]
-10:52:50.861 INFO - Executing: [find element: By.cssSelector: input[name=btnK]])
-10:52:50.875 INFO - Done: [find element: By.cssSelector: input[name=btnK]]
-10:52:50.880 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: input[name=btnK]]])
-10:52:50.913 INFO - Done: [click: 2 [[FirefoxDriver: firefox on MAC (33ecddbb-859e-e947-adca-bff44e72c53f)] -> css selector: input[name=btnK]]]
-10:52:51.926 INFO - Executing: [delete session: 4ada9acf-da3d-4c70-8310-1b7bdfe698f3])
-10:52:51.953 INFO - HTTP Status: '404' -> incorrect JSON status mapping for 'unknown error' (500 expected)
-10:52:53.532 WARN - Exception thrown
+14:17:35.246 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:17:35.246 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-08-02 14:17:35.303:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-08-02 14:17:35.358:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@4c70fda8{/,null,AVAILABLE}
+2017-08-02 14:17:35.395:INFO:osjs.AbstractConnector:main: Started ServerConnector@204f30ec{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-08-02 14:17:35.396:INFO:osjs.Server:main: Started @529ms
+14:17:35.396 INFO - Selenium Server is up and running
+14:17:35.679 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+14:17:35.708 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+14:17:35.730 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1501654656028	geckodriver	INFO	geckodriver 0.18.0
+1501654656037	geckodriver	INFO	Listening on 127.0.0.1:3901
+1501654656197	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1501654656957	Marionette	INFO	Listening on port 53857
+1501654658699	Marionette	INFO	startBrowser 89e2959e-1c73-674a-8a65-bc5d10d93258
+14:17:38.899 INFO - Detected dialect: W3C
+14:17:38.936 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+14:17:38.966 INFO - Executing: [get: http://www.google.com])
+14:17:45.685 INFO - Done: [get: http://www.google.com]
+14:17:45.694 INFO - Executing: [find elements: By.cssSelector: body])
+14:17:45.724 INFO - Done: [find elements: By.cssSelector: body]
+14:17:45.733 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: body]])
+14:17:45.786 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: body]]
+14:17:45.794 INFO - Executing: [get title])
+14:17:45.803 INFO - Done: [get title]
+14:17:45.826 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+14:17:45.836 INFO - Done: [find element: By.cssSelector: input[type=text]]
+14:17:45.841 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: input[type=text]]])
+14:17:45.879 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: input[type=text]]]
+14:17:45.885 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+14:17:45.896 INFO - Done: [find element: By.cssSelector: input[type=text]]
+14:17:45.904 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: input[type=text]], [r, e, m, b, r, a, n, d, t,  , v, a, n,  , r, i, j, n]])
+14:17:45.995 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: input[type=text]], [r, e, m, b, r, a, n, d, t,  , v, a, n,  , r, i, j, n]]
+14:17:46.005 INFO - Executing: [find elements: By.cssSelector: input[name=btnK]])
+14:17:46.016 INFO - Done: [find elements: By.cssSelector: input[name=btnK]]
+14:17:46.022 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: input[name=btnK]]])
+14:17:46.055 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: input[name=btnK]]]
+14:17:46.061 INFO - Executing: [find element: By.cssSelector: input[name=btnK]])
+14:17:46.071 INFO - Done: [find element: By.cssSelector: input[name=btnK]]
+14:17:46.076 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: input[name=btnK]]])
+14:17:46.109 INFO - Done: [click: 2 [[FirefoxDriver: firefox on MAC (89e2959e-1c73-674a-8a65-bc5d10d93258)] -> css selector: input[name=btnK]]]
+14:17:47.126 INFO - Executing: [delete session: 1f9052f0-5d60-478f-8315-49e7349aec1a])
+14:17:47.159 INFO - HTTP Status: '404' -> incorrect JSON status mapping for 'unknown error' (500 expected)
+14:17:48.739 WARN - Exception thrown
 org.openqa.selenium.WebDriverException: quit
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'Yunlongs-MacBook-Pro.local', ip: 'fe80:0:0:0:9a01:a7ff:feaf:21bb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=49.0.2, platform=MAC, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=45585.0, browserVersion=49.0.2, platformVersion=15.6.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=darwin, device=desktop}]
-Session ID: 33ecddbb-859e-e947-adca-bff44e72c53f
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=49.0.2, platform=MAC, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=53612.0, browserVersion=49.0.2, platformVersion=15.6.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=darwin, device=desktop}]
+Session ID: 89e2959e-1c73-674a-8a65-bc5d10d93258
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -84,9 +84,9 @@ Session ID: 33ecddbb-859e-e947-adca-bff44e72c53f
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-10:52:53.535 WARN - Exception: quit
+14:17:48.742 WARN - Exception: quit
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'Yunlongs-MacBook-Pro.local', ip: 'fe80:0:0:0:9a01:a7ff:feaf:21bb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=49.0.2, platform=MAC, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=45585.0, browserVersion=49.0.2, platformVersion=15.6.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=darwin, device=desktop}]
-Session ID: 33ecddbb-859e-e947-adca-bff44e72c53f
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161019084923, version=49.0.2, platform=MAC, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=53612.0, browserVersion=49.0.2, platformVersion=15.6.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=darwin, device=desktop}]
+Session ID: 89e2959e-1c73-674a-8a65-bc5d10d93258
